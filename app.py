@@ -6,6 +6,6 @@ from aws_cdk_test.aws_cdk_test_stack import AwsCdkTestStack
 
 
 app = core.App()
-AwsCdkTestStack(app, "aws-cdk-test")
+AwsCdkTestStack(app, "AwsCdkTestStack")
 
 app.synth()
