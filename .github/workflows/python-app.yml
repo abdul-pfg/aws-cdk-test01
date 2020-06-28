@@ -130,11 +130,10 @@ jobs:
 
       run: |
 
-        cd /aws-cdk-test
 
 
 
-        export AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY }}
+        export AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }}
 
 
 
