@@ -1,0 +1,18 @@
+{
+  "Resources": {
+    "BucketCDKCA1E0205": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "BucketName": "cdk-managed-bucket-s843971",
+        "VersioningConfiguration": {
+          "Status": "Enabled"
+        }
+      },
+      "UpdateReplacePolicy": "Retain",
+      "DeletionPolicy": "Retain",
+      "Metadata": {
+        "aws:cdk:path": "aws-cdk-test/BucketCDK/Resource"
+      }
+    }
+  }
+}

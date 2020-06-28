@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "aws-cdk-test": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "aws-cdk-test.template.json"
+      },
+      "metadata": {
+        "/aws-cdk-test/BucketCDK/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketCDKCA1E0205",
+            "trace": [
+              "new Bucket (C:\\Users\\s843971\\AppData\\Local\\Temp\\jsii-kernel-STzGsk\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:384:26)",
+              "C:\\Users\\s843971\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7877:49",
+              "Kernel._wrapSandboxCode (C:\\Users\\s843971\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:8350:20)",
+              "Kernel._create (C:\\Users\\s843971\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7877:26)",
+              "Kernel.create (C:\\Users\\s843971\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7621:21)",
+              "KernelHost.processRequest (C:\\Users\\s843971\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7411:28)",
+              "KernelHost.run (C:\\Users\\s843971\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7349:14)",
+              "Immediate._onImmediate (C:\\Users\\s843971\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:7352:37)",
+              "processImmediate (internal/timers.js:456:21)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/cloud-assembly-schema": "1.38.0",
+      "@aws-cdk/cx-api": "1.38.0",
+      "@aws-cdk/core": "1.38.0",
+      "@aws-cdk/region-info": "1.38.0",
+      "@aws-cdk/aws-iam": "1.38.0",
+      "@aws-cdk/aws-events": "1.38.0",
+      "@aws-cdk/aws-kms": "1.38.0",
+      "@aws-cdk/aws-s3": "1.38.0",
+      "jsii-runtime": "Python/3.8.3"
+    }
+  }
+}
