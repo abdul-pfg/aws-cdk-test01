@@ -10,6 +10,5 @@ class AwsCdkTestStack(core.Stack):
         bucket = s3.Bucket(self,
     		"BucketCDK", 
     		versioned=True,
-    		bucket_name='cdk-managed-bucket-s843971',
-            removal_policy=cdk.RemovalPolicy.DESTROY)
+    		bucket_name='cdk-managed-bucket-s843971')
         
